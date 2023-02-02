@@ -9,7 +9,7 @@ The architecture of this computer closely follows the architecture of the comput
 
 ## Specifications
 - Precision: 8bit
-- RAM: 4 Bytes
+- RAM: 8 Bytes
 - ROM: 8 Instructions (16 Bytes)
 - Registers: 3 (3 Bytes)
 - Output: 3 digit octal display
@@ -42,4 +42,10 @@ Instruction Decoder:
 ![Instruction Decoder](images/InstructionDecoder.png "Instruction Decoder")
 
 3bit BCD to 7-Segment Decoder:
-![3bit BCD to 7-Segment Decoder:](images/3bit_BCD_to_7Seg.png "3bit BCD to 7-Segment Decoder:")
+![3bit BCD to 7-Segment Decoder](images/3bit_BCD_to_7Seg.png "3bit BCD to 7-Segment Decoder")
+
+A-Register allows indirect adressing of RAM-contents:
+![A-Register allows indirect adressing of RAM-contents](images/A_Register.png "A-Register allows indirect adressing of RAM-contents")
+
+8B-RAM Module realised by using two 4B-RAM Modules as subcomponents, which in turn use 2B-RAM Modules. This could be recursively repeated to reach 128B of RAM, which is the maximum address reachable with 8bit.
+![8B-RAM Module realised by using two 4B-RAM Modules as subcomponents](images/8B_RAM.png "8B-RAM Module realised by using two 4B-RAM Modules as subcomponents")

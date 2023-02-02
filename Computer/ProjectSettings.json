@@ -81,7 +81,8 @@
     "3bit BCD to 7Seg",
     "OR x8",
     "D-Registers",
-    "A-Registers"
+    "A-Registers",
+    "RAM 8B"
   ],
   "StarredChips": [
     "SEL-INS",
@@ -133,7 +134,8 @@
     "AND",
     "NOT",
     "3bit BCD to 7Seg",
-    "OR x8"
+    "OR x8",
+    "RAM 8B"
   ],
   "DisplayOptions": {
     "MainChipPinNameDisplayMode": 1,
