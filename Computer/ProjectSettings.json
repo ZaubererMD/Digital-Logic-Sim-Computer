@@ -1,7 +1,7 @@
 {
   "ProjectName": "Computer",
   "BuildVersion": "1.0.2",
-  "CreationTime": "2023-02-01T17:10:11.4259319+01:00",
+  "CreationTime": "2023-02-02T16:37:39.1854075+01:00",
   "AllCreatedChips": [
     "OR",
     "NOR",
@@ -79,7 +79,9 @@
     "Alternating Clock",
     "3bit BCD Decoder",
     "3bit BCD to 7Seg",
-    "OR x8"
+    "OR x8",
+    "D-Registers",
+    "A-Registers"
   ],
   "StarredChips": [
     "SEL-INS",
