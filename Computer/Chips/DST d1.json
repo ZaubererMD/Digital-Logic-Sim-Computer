@@ -1,0 +1,21 @@
+{
+  "Name": "DST d1",
+  "Colour": "#7B47E0",
+  "InputPins": [],
+  "OutputPins": [
+    {
+      "Name": "cs1",
+      "ID": 1329759112,
+      "PositionY": 1.58333361,
+      "ColourThemeName": "Red"
+    },
+    {
+      "Name": "cs0",
+      "ID": 838791849,
+      "PositionY": 0.546296239,
+      "ColourThemeName": "Red"
+    }
+  ],
+  "SubChips": [],
+  "Connections": []
+}

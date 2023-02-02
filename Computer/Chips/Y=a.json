@@ -1,0 +1,15 @@
+{
+  "Name": "Y=a",
+  "Colour": "#61D910",
+  "InputPins": [],
+  "OutputPins": [
+    {
+      "Name": "sm a",
+      "ID": 1394515978,
+      "PositionY": 0.5185187,
+      "ColourThemeName": "Red"
+    }
+  ],
+  "SubChips": [],
+  "Connections": []
+}
