@@ -5,7 +5,7 @@ This is a project built in Sebastian Lagues [Digital-Logic-Sim](https://sebastia
 
 The architecture of this computer is based on the architecture of the computer realized in [Nandgame](https://www.nandgame.com/), but it has more registers, RAM and ROM.
 
-![Main Component showing an output of 351, which is a fibonacci number in octal notation](images/Computer.png "Main Component showing an output of 351, which is a fibonacci number in octal notation")
+![Main Component showing an output of 144, the 12th fibonacci number](images/Computer.png "Main Component showing an output of 144, the 12th fibonacci number")
 
 ## Specifications
 - Precision: 8bit
@@ -14,12 +14,12 @@ The architecture of this computer is based on the architecture of the computer r
 - ROM: 8 Instructions (16 Bytes)
 - General Purpose Registers: 4 (4 Bytes)
 - Output-Register: 1 (1 Byte)
-- Output: 3 digit octal display
+- Output: 3 digit decimal display (can be swapped for an octal display)
 
 RAM and ROM could potentially be expanded, but these dimensions were sufficient for the demo program. In fact, the RAM is not used at all by the demo.
 
 ## How to run
-Load the Component "COMPUTER FIB" and the demo program will start to run. You can control the speed of the clock via the two inputs on the left. The computed fibonacci series numbers will be displayed on the three 7-segment-displays as octal numbers.
+Load the Component "COMPUTER FIB" and the demo program will start to run. You can control the speed of the clock via the two inputs on the left. The computed fibonacci series numbers will be displayed on the three 7-segment-displays.
 
 ## How to Program the computer
 The computer can be programmed by changing the contents of the ROM. Currently, the ROM is contained in the components "ROM FIB 0-3" and "ROM FIB 4-7" which hold the code for the demo program. Each ROM component holds 4 Instructions, which have to be read in the order bottom right, top right, bottom left, top left. This is due to the how the "Instr Select" components work. I may flip this in the future to make it easier to read.
@@ -56,8 +56,8 @@ Arithmetic Logical Unit:
 Instruction Decoder:
 ![Instruction Decoder](images/InstructionDecoder.png "Instruction Decoder")
 
-3bit BCD to 7-Segment Decoder:
-![3bit BCD to 7-Segment Decoder](images/3bit_BCD_to_7Seg.png "3bit BCD to 7-Segment Decoder")
+3bit to 7-Segment Decoder:
+![3bit to 7-Segment Decoder](images/3bit_to_7Seg.png "3bit to 7-Segment Decoder")
 
 A-Register allows indirect adressing of RAM-contents:
 ![A-Register allows indirect adressing of RAM-contents](images/A_Register.png "A-Register allows indirect adressing of RAM-contents")
