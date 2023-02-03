@@ -48,5 +48,5 @@ Instruction Decoder:
 A-Register allows indirect adressing of RAM-contents:
 ![A-Register allows indirect adressing of RAM-contents](images/A_Register.png "A-Register allows indirect adressing of RAM-contents")
 
-8B-RAM Module realised by using two 4B-RAM Modules as subcomponents, which in turn use 2B-RAM Modules. This could be recursively repeated to reach 128B of RAM, which is the maximum address reachable with 8bit.
+8B-RAM Module realised by using two 4B-RAM Modules as subcomponents, which in turn use 2B-RAM Modules. This could be recursively repeated to reach 256B of RAM, which is the maximum address reachable with 8bit.
 ![8B-RAM Module realised by using two 4B-RAM Modules as subcomponents](images/8B_RAM.png "8B-RAM Module realised by using two 4B-RAM Modules as subcomponents")
