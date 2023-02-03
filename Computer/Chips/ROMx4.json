@@ -115,7 +115,7 @@
   ],
   "SubChips": [
     {
-      "Name": "SEL-INS",
+      "Name": "Instr Select",
       "ID": 1331419022,
       "Points": [
         {
@@ -126,7 +126,7 @@
       "Data": null
     },
     {
-      "Name": "SEL-INS",
+      "Name": "Instr Select",
       "ID": 1618264540,
       "Points": [
         {
@@ -137,7 +137,7 @@
       "Data": null
     },
     {
-      "Name": "SEL-INS",
+      "Name": "Instr Select",
       "ID": 747036010,
       "Points": [
         {

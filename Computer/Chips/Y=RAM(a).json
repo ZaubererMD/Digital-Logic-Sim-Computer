@@ -1,23 +1,29 @@
 {
-  "Name": "X=d2",
-  "Colour": "#61D910",
+  "Name": "Y=RAM(a)",
+  "Colour": "#1D4119",
   "InputPins": [],
   "OutputPins": [
     {
-      "Name": "sm d",
-      "ID": 1394515978,
-      "PositionY": 0.5185187,
+      "Name": "src1 ram",
+      "ID": 2526378,
+      "PositionY": 0.546296239,
+      "ColourThemeName": "Red"
+    },
+    {
+      "Name": "src1",
+      "ID": 186704908,
+      "PositionY": -0.0555557,
       "ColourThemeName": "Red"
     }
   ],
   "SubChips": [
     {
       "Name": "1",
-      "ID": 342074432,
+      "ID": 2111346784,
       "Points": [
         {
-          "X": 6.76851845,
-          "Y": 0.546296239
+          "X": 6.53703737,
+          "Y": 0.2870369
         }
       ],
       "Data": null
@@ -27,22 +33,22 @@
     {
       "Source": {
         "PinType": 4,
-        "SubChipID": 342074432,
+        "SubChipID": 2111346784,
         "PinID": 769656350
       },
       "Target": {
         "PinType": 2,
         "SubChipID": 0,
-        "PinID": 1394515978
+        "PinID": 2526378
       },
       "WirePoints": [
         {
-          "X": 7.11851835,
-          "Y": 0.546296239
+          "X": 6.88703728,
+          "Y": 0.2870369
         },
         {
           "X": 7.837778,
-          "Y": 0.5185187
+          "Y": 0.546296239
         }
       ],
       "ColourThemeName": "Red"

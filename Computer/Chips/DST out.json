@@ -1,5 +1,5 @@
 {
-  "Name": "DST d1",
+  "Name": "DST out",
   "Colour": "#7D835A",
   "InputPins": [],
   "OutputPins": [
@@ -45,7 +45,7 @@
       "Target": {
         "PinType": 2,
         "SubChipID": 0,
-        "PinID": 1778089874
+        "PinID": 1680800962
       },
       "WirePoints": [
         {
@@ -54,7 +54,7 @@
         },
         {
           "X": 7.837778,
-          "Y": 1.3611114
+          "Y": 0.712962747
         }
       ],
       "ColourThemeName": "Red"

@@ -1,12 +1,12 @@
 {
-  "Name": "Y=a",
-  "Colour": "#61D910",
+  "Name": "X=d0",
+  "Colour": "#255845",
   "InputPins": [],
   "OutputPins": [
     {
-      "Name": "sm a",
-      "ID": 1394515978,
-      "PositionY": 0.5185187,
+      "Name": "src0",
+      "ID": 2115749481,
+      "PositionY": 0.379629731,
       "ColourThemeName": "Red"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "Name": "SEL-INS",
+  "Name": "Instr Select",
   "Colour": "#0E1C57",
   "InputPins": [
     {
@@ -15,19 +15,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 b14",
+      "Name": "1 src1 ram",
       "ID": 1962554444,
       "PositionY": 4.083334,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 sm d",
+      "Name": "1 src1",
       "ID": 1695798076,
       "PositionY": 3.82407379,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 sm a",
+      "Name": "1 src0",
       "ID": 1459891704,
       "PositionY": 3.537037,
       "ColourThemeName": "Red"
@@ -69,19 +69,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 b5",
+      "Name": "1 dst2",
       "ID": 2048278571,
       "PositionY": 1.66666651,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 cs1",
+      "Name": "1 dst1",
       "ID": 502070212,
       "PositionY": 1.37037039,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "1 cs0",
+      "Name": "1 dst0",
       "ID": 1274510529,
       "PositionY": 1.09259212,
       "ColourThemeName": "Red"
@@ -111,19 +111,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 b14",
+      "Name": "0 src1 ram",
       "ID": 891896739,
       "PositionY": -0.231481493,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 sm d",
+      "Name": "0 src1",
       "ID": 598692255,
       "PositionY": -0.509259462,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 sm a",
+      "Name": "0 src0",
       "ID": 384895752,
       "PositionY": -0.796296239,
       "ColourThemeName": "Red"
@@ -165,19 +165,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 b5",
+      "Name": "0 dst2",
       "ID": 507935769,
       "PositionY": -2.638889,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 cs1",
+      "Name": "0 dst1",
       "ID": 90196566,
       "PositionY": -2.925926,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "0 cs0",
+      "Name": "0 dst0",
       "ID": 114249307,
       "PositionY": -3.19444418,
       "ColourThemeName": "Red"
@@ -209,19 +209,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "b14",
+      "Name": "src1 ram",
       "ID": 1268038613,
       "PositionY": 4.083334,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "sm d",
+      "Name": "src1",
       "ID": 2077298819,
       "PositionY": 3.57407427,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "sm a",
+      "Name": "src0",
       "ID": 1593703278,
       "PositionY": 3.05555534,
       "ColourThemeName": "Red"
@@ -263,19 +263,19 @@
       "ColourThemeName": "Red"
     },
     {
-      "Name": "b5",
+      "Name": "dst2",
       "ID": 1973047778,
       "PositionY": -1.00925922,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "cs1",
+      "Name": "dst1",
       "ID": 507289542,
       "PositionY": -1.59259272,
       "ColourThemeName": "Red"
     },
     {
-      "Name": "cs0",
+      "Name": "dst0",
       "ID": 187189917,
       "PositionY": -2.175926,
       "ColourThemeName": "Red"
