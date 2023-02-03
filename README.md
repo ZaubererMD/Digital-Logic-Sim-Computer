@@ -24,7 +24,21 @@ Load the Component "COMPUTER FIB" and the demo program will start to run. You ca
 ## How to Program the computer
 The computer can be programmed by changing the contents of the ROM. Currently, the ROM is contained in the components "ROM FIB 0-3" and "ROM FIB 4-7" which hold the code for the demo program. Each ROM component holds 4 Instructions, which have to be read in the order bottom right, top right, bottom left, top left. This is due to the how the "Instr Select" components work. I may flip this in the future to make it easier to read.
 
+The Demo Program calculating the fibonacci numbers consists of the following code, which you can compare with the two following images:
+```
+0: D0 = 1
+1: D2 = 1
+2: A = 3 // for the jump instruction later
+3: Out = D0 // start of loop
+4: D1 = D0 + D2
+5: D2 = D0
+6: D0 = D1
+7: JMP // Jump to wherever A is pointing (3 in this case)
+```
+
+Instructions 0 to 3:
 ![ROM programmed with the instructions 0 to 3 of the fibonacci calculator](images/ROM.png "ROM programmed with the instructions 0 to 3 of the fibonacci calculator")
+Instructions 4 to 7:
 ![ROM programmed with the instructions 4 to 7 of the fibonacci calculator](images/ROM_2.png "ROM programmed with the instructions 4 to 7 of the fibonacci calculator")
 
 Each Instruction consist of multiple components:
